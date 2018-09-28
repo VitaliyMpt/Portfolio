@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BFFE639F-1E96-4FD5-9469-7C28C19A9419}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Fabrika</RootNamespace>
+    <AssemblyName>Fabrika</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Avtoriz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Avtoriz.Designer.cs">
+      <DependentUpon>Avtoriz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registr.Designer.cs">
+      <DependentUpon>Registr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Skupki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Skupki.Designer.cs">
+      <DependentUpon>Skupki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zastavka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zastavka.Designer.cs">
+      <DependentUpon>Zastavka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Avtoriz.resx">
+      <DependentUpon>Avtoriz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registr.resx">
+      <DependentUpon>Registr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Skupki.resx">
+      <DependentUpon>Skupki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zastavka.resx">
+      <DependentUpon>Zastavka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vgif-ru-Подшутили над учителем.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vgif-ru-27689.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nepablik.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

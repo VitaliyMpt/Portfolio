@@ -1,0 +1,13 @@
+C:\Users\БАТЯ\Desktop\УП моя\Fabrika\Fabrika\bin\Debug\Fabrika.exe.config
+C:\Users\БАТЯ\Desktop\УП моя\Fabrika\Fabrika\bin\Debug\Fabrika.exe
+C:\Users\БАТЯ\Desktop\УП моя\Fabrika\Fabrika\bin\Debug\Fabrika.pdb
+C:\Users\БАТЯ\Desktop\УП моя\Fabrika\Fabrika\obj\Debug\Fabrika.csprojResolveAssemblyReference.cache
+C:\Users\БАТЯ\Desktop\УП моя\Fabrika\Fabrika\obj\Debug\Fabrika.Avtoriz.resources
+C:\Users\БАТЯ\Desktop\УП моя\Fabrika\Fabrika\obj\Debug\Fabrika.Registr.resources
+C:\Users\БАТЯ\Desktop\УП моя\Fabrika\Fabrika\obj\Debug\Fabrika.Skupki.resources
+C:\Users\БАТЯ\Desktop\УП моя\Fabrika\Fabrika\obj\Debug\Fabrika.Zastavka.resources
+C:\Users\БАТЯ\Desktop\УП моя\Fabrika\Fabrika\obj\Debug\Fabrika.Properties.Resources.resources
+C:\Users\БАТЯ\Desktop\УП моя\Fabrika\Fabrika\obj\Debug\Fabrika.csproj.GenerateResource.Cache
+C:\Users\БАТЯ\Desktop\УП моя\Fabrika\Fabrika\obj\Debug\Fabrika.csproj.CoreCompileInputs.cache
+C:\Users\БАТЯ\Desktop\УП моя\Fabrika\Fabrika\obj\Debug\Fabrika.exe
+C:\Users\БАТЯ\Desktop\УП моя\Fabrika\Fabrika\obj\Debug\Fabrika.pdb
